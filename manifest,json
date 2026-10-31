@@ -1,20 +1,8 @@
-{
-  "id": "./",
-  "name": "KASIR SB - SB Digital Studio",
-  "short_name": "KASIR SB",
-  "description": "Aplikasi kasir digital untuk toko dan warung Anda.",
-  "start_url": "./",
-  "scope": "./",
-  "display": "standalone",
-  "orientation": "portrait",
-  "background_color": "#ffffff",
-  "theme_color": "#166534",
-  "icons": [
-    {
-      "src": "https://lh3.googleusercontent.com/d/1w0Vwuk4aov4_XaylCpUH9tTJaVzCyAdM",
-      "sizes": "512x512",
-      "type": "image/png",
-      "purpose": "any"
-    }
-  ]
-}
+"icons": [
+  {
+    "src": "./icon-512.jpg",
+    "sizes": "512x512",
+    "type": "image/jpeg",
+    "purpose": "any"
+  }
+]
