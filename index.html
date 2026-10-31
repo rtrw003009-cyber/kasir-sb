@@ -93,5 +93,15 @@
       Powered by SB Digital Studio
     </p>
   </main>
+  <script>
+  if ("serviceWorker" in navigator) {
+    window.addEventListener("load", function () {
+      navigator.serviceWorker.register("./service-worker.js")
+        .catch(function (error) {
+          console.error("Service Worker gagal:", error);
+        });
+    });
+  }
+</script>
 </body>
 </html>
