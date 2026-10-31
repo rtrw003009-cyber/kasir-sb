@@ -1,4 +1,4 @@
-const CACHE_NAME = "kasir-sb-v1";
+const CACHE_NAME = "kasir-sb-v2";
 
 const APP_FILES = [
   "./",
